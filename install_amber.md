@@ -4,10 +4,8 @@ mkdir -p ~/miniconda3
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
 bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 rm -rf ~/miniconda3/miniconda.sh
-
 #initialize
 ~/miniconda3/bin/conda init bash
-
 #restart terminal or shell
 re-login 
 
@@ -38,7 +36,7 @@ follow this http://archive.ambermd.org/202302/0117.html troubleshooting conversa
 #ADDED LINE TO FIX CUB ISSUE
 add_compile_definitions(THRUST_IGNORE_CUB_VERSION_CHECK)
 
-7. Source for execution
+8. Source for execution
 source /u/mlawal/amber22/amber.sh
 
-8. Follow the job submission protocol for your supercomputer environ.
+9. Follow the job submission protocol for your supercomputer environ.
