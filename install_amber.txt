@@ -9,9 +9,11 @@ bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 rm -rf ~/miniconda3/miniconda.sh
 
 #initialize
+
 ~/miniconda3/bin/conda init bash
 
 #restart terminal or shell
+
 re-login 
 
 3. Select Option 3: Getting source code in tar format from Ambermd.org https://ambermd.org/GetAmber.php by filling name and institution appropriately
